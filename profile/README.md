@@ -1,65 +1,63 @@
 # LUMMY Ticket 🎫
 
-  **Web3 Value, Web2 Experience**
+ ### "Smart Tickets, Simple Experience"
 
-   Blockchain ticketing platform that prevents fraud and scalping through innovative algorithm selection, giving organizers the flexibility to choose between pure Web3 experience or hybrid approach based on their event needs.
+  Modern ticketing platform that eliminates fraud through blockchain technology while maintaining the simplicity of traditional apps. Choose from multiple security algorithms based on your event needs.
 
   ## 🌟 Our Mission
 
-  Revolutionizing the ticketing industry by eliminating fraud, reducing scalping, and providing transparent, secure, and user-friendly ticket management through blockchain technology.
+  End ticket fraud and scalping through blockchain innovation that's accessible to everyone - no crypto knowledge required.
 
   ## 🎯 Problems We Solve
 
-  - **Ticket Fraud & Scalping**: 200% price markup, 4000+ duplicate ticket IDs
-  - **Poor User Experience**: Complex Web3 interfaces limiting mass adoption
-  - **Limited Flexibility**: One-size-fits-all solutions
-  
-  ## 🚀 Features
+  - Ticket Fraud & Scalping: High price markup, Duplicate Tickets, billions lost annually
+  - Complex Technology: Cryptocurrency barriers preventing mass adoption
+  - Inflexible Solutions: One-size-fits-all platforms
 
-  ### Algorithm Options
-  - **Algorithm 1**: Pure Web3 with gasless transactions (<500 attendees)
-  - **Algorithm 2**: Hybrid with dynamic QR codes (500+ attendees)
-  - **Algorithm 3**: Zero-Knowledge proofs for privacy (planned)
+  ## 🚀 Core Features
 
-  ### Key Benefits
-  - **NFT-Based Tickets**: Blockchain-verified ownership prevents counterfeiting
-  - **Email Login**: Xellar Kit integration (no seed phrases, local payments)
-  - **Dynamic Security**: QR codes change every 30 minutes
-  - **Gasless Experience**: Users don't pay blockchain fees
+  ### Smart Algorithm Selection
 
-  ## 🌐 Tech Stack
+  - Algorithm 1: Blockchain-native for tech events (<500 people)
+  - Algorithm 2: Hybrid system for mainstream events (500+ people)
+  - Algorithm 3: Privacy-focused with zero-knowledge (2027+)
 
-  - **Blockchain**: Lisk with ERC-721 contracts
-  - **Frontend**: React + TypeScript + Chakra UI
-  - **Wallet**: Xellar Kit + MetaMask fallback
-  - **Payment**: IDRX + Indonesian payment methods
+  ### User-Friendly Design
 
-  ## 📂 Repositories
+  - Email Login: No crypto wallets or seed phrases needed
+  - Local Payments: Indonesian banks and e-wallets supported
+  - Gasless Transactions: Users only pay ticket price, no blockchain fees
+  - Anti-Fraud NFTs: Unique digital tickets that cannot be duplicated
 
-  - [`lummy-smart-contracts`](https://github.com/Lummy-Ticket) - Smart contracts
-  - [`lummy-frontend`](https://github.com/Lummy-Ticket) - Web application
-  - [`lummy-backend`](https://github.com/Lummy-Ticket) - API for Algorithm 2
-  - [`lummy-scanner`](https://github.com/Lummy-Ticket) - QR scanner interface
+  ## 🌐 Technology
 
-  ## 🚦 Getting Started
+  Blockchain: Lisk network with IDRX stablecoin <br>
+  Frontend: React with TypeScript <br>
+  Wallet: Xellar embedded wallet + MetaMask <br>
+  Security: Dynamic QR codes, smart contract verification
 
-  **Users**: Login with email → Auto wallet creation → Top up locally → Buy tickets →
-  Show QR at venue
+  ## 📂 Code Repositories
 
-  **Organizers**: Connect wallet → Choose algorithm → Create event → Add staff → Monitor
-  sales
+  - https://github.com/Lummy-Ticket/lummy-smart-contracts - Smart Contract
+  - https://github.com/Lummy-Ticket/lummy-frontend - Website
+
+  ## 🚦 How It Works
+
+  For Buyers: Email login → Top up with local payment → Buy tickets → Show QR at venue
+
+  For Organizers: Create event → Choose security level → Manage sales → Verify attendees
 
   ## 🎯 Roadmap
 
-  - **2025**: Algorithm 1 launch, beta testing
-  - **2026-2028**: Algorithm 2, mass adoption, partnerships
-  - **2029+**: Algorithm 3, international expansion
+  - 2025: Launch Algorithm 1, partnership building
+  - 2026-2027: Algorithm 2 rollout, mainstream adoption
+  - 2028+: Algorithm 3, international expansion
 
-  ## 👥 Team
+  ## 👥 Our Team
 
-  - **Zahra Sasongko** - CEO
-  - **Luthfi Hadi** - CTO
-  - **Joanita Timbin Panggalo** - COO
-  - **Raffa Arya Nugraha** - CPO
-  - **Daffa Rifki Arditya** - CMO
-  - **Oktavianus Bima Jadiva** - Web3 Developer
+  - Zahra Sasongko - CEO (Strategy & Business)
+  - Luthfi Hadi - CTO (Blockchain Development)
+  - Joanita Timbin Panggalo - COO (Operations)
+  - Raffa Arya Nugraha - CPO (Product Design)
+  - Daffa Rifki Arditya - CMO (Marketing)
+  - Oktavianus Bima Jadiva - Web3 Developer
