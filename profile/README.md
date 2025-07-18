@@ -18,9 +18,9 @@
 
   ### Smart Algorithm Selection
 
-  - Algorithm 1: Blockchain-native for tech events (<500 people)
-  - Algorithm 2: Hybrid system for mainstream events (500+ people)
-  - Algorithm 3: Privacy-focused with zero-knowledge (2027+)
+  - Algorithm 1: Pure blockchain with NFT status update (<500 people)
+  - Algorithm 2: Hybrid system with dynamic QR codes (500+ people)
+  - Algorithm 3: Privacy-focused with zero-knowledge proofs (2027+)
 
   ### User-Friendly Design
 
@@ -49,9 +49,9 @@
 
   ## 🎯 Roadmap
 
-  - 2025: Launch Algorithm 1, partnership building
-  - 2026-2027: Algorithm 2 rollout, mainstream adoption
-  - 2028+: Algorithm 3, international expansion
+  - 2025: Launch Algorithm 1, partnertship + spread awareness
+  - 2026-2027: Algorithm 2 rollout, mainstream adoption in indonesia 
+  - 2028+: Algorithm 3, south east asia expansion
 
   ## 👥 Our Team
 
