@@ -18,10 +18,10 @@ No wallet, no seed phrase, no gas fee.
 
 <br>
 
-![Ethereum L2](https://img.shields.io/badge/Ethereum%20L2-Arbitrum-28A0F0)
-![Escrow](https://img.shields.io/badge/Escrow-live%20on%20Arbitrum%20Sepolia-3A6CB4)
-![Stage](https://img.shields.io/badge/Stage-Pre--seed-lightgrey)
-![Location](https://img.shields.io/badge/Jakarta-Indonesia-lightgrey)
+![Ethereum L2: Arbitrum](./badges/chain.svg)
+![Escrow: live on Arbitrum Sepolia](./badges/escrow.svg)
+![Stage: Pre-seed](./badges/stage.svg)
+![Jakarta, Indonesia](./badges/location.svg)
 
 </div>
 
