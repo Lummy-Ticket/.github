@@ -10,6 +10,8 @@ Sign in with email: no wallet, no seed phrase, no gas fee.
 [<kbd> <br> Live site &nbsp;→ <br> </kbd>](https://lummy.id)
 &nbsp;
 [<kbd> <br> How it works &nbsp;→ <br> </kbd>](https://lummy.id/how-it-works)
+&nbsp;
+[<kbd> <br> Code &nbsp;→ <br> </kbd>](https://github.com/Lummy-Ticket/lummy)
 
 <br>
 
@@ -93,6 +95,7 @@ The contracts run on Arbitrum, an Ethereum L2, so they settle to Ethereum, and t
 ## Where we are (October 2026)
 
 - **Live at [lummy.id](https://lummy.id):** email sign-in; buyer, seller and staff flows on a real database; claims with photo evidence the server reads; gate passes scanned at the door; cancelled and postponed shows; English and Indonesian.
+- **Code at [Lummy-Ticket/lummy](https://github.com/Lummy-Ticket/lummy):** the app, the database schema and the contracts, mirrored from our working repository with their full history.
 - **Real ticket PDFs** have been checked since 1 October, and read by Claude since 20 October.
 - **QRIS through Xendit** in test mode since 8 October. Real money waits for our company registration and the provider's business verification.
 - **Contracts:** 110 Foundry tests, fuzzing and invariant runs included.
