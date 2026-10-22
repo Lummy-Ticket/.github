@@ -1,9 +1,6 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./logo-white.svg">
-  <img src="./logo.svg" alt="Lummy" width="300">
-</picture>
+<img src="./logo.svg" alt="Lummy" width="300">
 
 **Escrow-backed resale for concert tickets in Indonesia.**
 
