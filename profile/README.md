@@ -120,4 +120,4 @@ Luthfi Hadi, CTO · [@luthfidi](https://github.com/luthfidi) · [LinkedIn](https
 
 Joanita Timbin Panggalo, COO · [LinkedIn](https://www.linkedin.com/in/joanitatimbin/)
 
-<sub>Jakarta, Indonesia · team@lummy.id · [Instagram](https://instagram.com/lummy.ticket) · [X](https://x.com/lummy_ticket) · [LinkedIn](https://linkedin.com/company/lummy-ticket)</sub>
+<sub>Jakarta, Indonesia · team@lummy.id · [Instagram](https://instagram.com/lummy.magazine) · [X](https://x.com/lummy_ticket) · [LinkedIn](https://linkedin.com/company/lummy-ticket)</sub>
