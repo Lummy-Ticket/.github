@@ -5,9 +5,11 @@
 **Escrow-backed resale for concert tickets in Indonesia.**
 
 The buyer's money is held until 48 hours after the show, and every ticket is checked before it goes on sale.
-Sign in with email: no wallet, no seed phrase, no gas fee.
+Sign in with email. Shows in Indonesia need no wallet; shows abroad take USDC from your own wallet, with no gas fee.
 
 [<kbd> <br> Live site &nbsp;→ <br> </kbd>](https://lummy.id)
+&nbsp;
+[<kbd> <br> Try a demo account &nbsp;→ <br> </kbd>](https://lummy.id/login#demo)
 &nbsp;
 [<kbd> <br> How it works &nbsp;→ <br> </kbd>](https://lummy.id/how-it-works)
 &nbsp;
@@ -94,13 +96,13 @@ The contracts run on Arbitrum, an Ethereum L2, so they settle to Ethereum, and t
 
 ## Where we are (October 2026)
 
-- **Live at [lummy.id](https://lummy.id):** email sign-in; buyer, seller and staff flows on a real database; claims with photo evidence the server reads; gate passes scanned at the door; cancelled and postponed shows; English and Indonesian.
+- **Live at [lummy.id](https://lummy.id):** email sign-in, and demo accounts to try every role without signing up; buyer, seller and staff flows on a real database; claims with photo evidence the server reads; gate passes scanned at the door; cancelled and postponed shows; English and Indonesian.
 - **Code at [Lummy-Ticket/lummy](https://github.com/Lummy-Ticket/lummy):** the app, the database schema and the contracts, mirrored from our working repository with their full history.
 - **Real ticket PDFs** have been checked since 1 October, and read by Claude since 20 October.
 - **QRIS through Xendit** in test mode since 8 October. Real money waits for our company registration and the provider's business verification.
-- **Contracts:** 110 Foundry tests, fuzzing and invariant runs included.
-- **Beta** with real accounts, 19 to 31 October.
-- **Arbitrum Founder House**, Singapore, 23 to 25 October: building USDC checkout from the buyer's own wallet for shows abroad.
+- **Contracts:** 114 Foundry tests, fuzzing and invariant runs included; Slither (Trail of Bits) in CI.
+- **Next:** a beta with ten fans, then one promoter pilot in December. No users or revenue yet.
+- **Arbitrum Founder House**, Singapore, 23 to 25 October: built USDC checkout from the buyer's own wallet for shows abroad, live on testnet ([the work](https://github.com/Lummy-Ticket/lummy/compare/founder-house-start...main)).
 
 ## Stack
 
