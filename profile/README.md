@@ -7,6 +7,8 @@
 The buyer's money is held until 48 hours after the show, and every ticket is checked before it goes on sale.
 Sign in with email. Shows in Indonesia need no wallet; shows abroad take USDC from your own wallet, with no gas fee.
 
+[<kbd> <br> Watch the demo (2:50) &nbsp;→ <br> </kbd>](https://youtu.be/090tOYfTQ4I)
+&nbsp;
 [<kbd> <br> Live site &nbsp;→ <br> </kbd>](https://lummy.id)
 &nbsp;
 [<kbd> <br> Try a demo account &nbsp;→ <br> </kbd>](https://lummy.id/login#demo)
