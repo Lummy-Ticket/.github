@@ -51,7 +51,7 @@ flowchart LR
     D --> F["Refund or<br/>payout"]
 ```
 
-The seller is only paid after the show, so there is nothing to take and disappear with. If no claim stands within 48 hours of the show ending, the payout happens on its own. A buyer turned away at the gate with proof gets the money back, and a seller whose ticket fails loses the sale and pays a 40% penalty, so selling a bad ticket never pays. Resale is capped at 150% of face value.
+The seller is only paid after the show, so there is nothing to take and disappear with. If no claim stands within 48 hours of the show ending, the payout happens on its own. A buyer turned away at the gate with proof gets the money back, and a seller whose ticket fails loses the sale, and the ruling records a 40% penalty, so selling a bad ticket never pays. Until real money moves, that penalty is recorded, not collected. Resale is capped at 150% of face value.
 
 ### The tickets
 
@@ -67,7 +67,7 @@ Every listing is checked before it goes on sale:
 
 ## Two payment rails, one public record
 
-Crypto may not be used as payment in Indonesia, so for shows there, buyers pay rupiah by QRIS through a licensed payment provider (Xendit, in test mode for now). The provider holds the money, and a contract on Arbitrum records each order's life. For shows abroad, the buyer's Circle USDC goes into an escrow contract that holds it per listing until the window after the show closes. Escrow cycles have run on testnet with a simulated buyer; checkout from the buyer's own wallet is what we are building at Founder House.
+Crypto may not be used as payment in Indonesia, so for shows there, buyers pay rupiah by QRIS through a licensed payment provider (Xendit, in test mode for now). The provider holds the money, and a contract on Arbitrum records each order's life. For shows abroad, the buyer's Circle USDC goes into an escrow contract that holds it per listing until the window after the show closes. Escrow cycles first ran on testnet with a simulated buyer. Since Arbitrum Founder House, buyers check out from their own wallet, on testnet.
 
 | Contract | On Arbitrum Sepolia, source verified | What it does |
 |---|---|---|
