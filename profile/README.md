@@ -9,6 +9,8 @@ Sign in with email. Shows in Indonesia need no wallet; shows abroad take USDC fr
 
 [<kbd> <br> Watch the demo (2:50) &nbsp;→ <br> </kbd>](https://youtu.be/090tOYfTQ4I)
 &nbsp;
+[<kbd> <br> Watch the pitch &nbsp;→ <br> </kbd>](https://youtu.be/DeOXEoOJfJ4)
+&nbsp;
 [<kbd> <br> Live site &nbsp;→ <br> </kbd>](https://lummy.id)
 &nbsp;
 [<kbd> <br> Try a demo account &nbsp;→ <br> </kbd>](https://lummy.id/login#demo)
