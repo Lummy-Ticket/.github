@@ -32,6 +32,11 @@ Sign in with email. Shows in Indonesia need no wallet; shows abroad take USDC fr
 
 </div>
 
+> **NEAR HACKATHON, November 2026.** Two things built on NEAR, live at [lummy.id/near](https://lummy.id/near):
+> **pay from any chain** through NEAR Intents into the escrow on Arbitrum One, and **a ticket check you can verify**, read in NEAR AI's TEE with a signed receipt.
+> Real payments are the team's own for now, in unaudited contracts capped at 25 USDC an order. No users or revenue yet.
+> [Code, and how to check every claim](https://github.com/Lummy-Ticket/lummy) · [Notes for coding agents](https://github.com/Lummy-Ticket/lummy/blob/main/AGENTS.md)
+
 ---
 
 ## The problem
