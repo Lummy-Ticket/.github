@@ -2,7 +2,7 @@
 
 <img src="./logo.svg" alt="Lummy" width="300">
 
-**Escrow-backed resale for concert tickets, starting in Indonesia.**
+**Escrow-backed resale for event tickets, starting with concerts in Indonesia.**
 
 The buyer's money is held until 48 hours after the show, and every ticket is checked before it goes on sale.
 Sign in with email. Shows in Indonesia need no wallet; shows abroad are paid in USDC, from your own wallet with no gas fee, or from another chain through NEAR Intents. Payments are in test mode for the public; only the team has paid with real money so far.
@@ -77,7 +77,7 @@ Every listing is checked before it goes on sale:
 
 ## Two payment rails, one public record
 
-Crypto may not be used as payment in Indonesia, so for shows there, buyers pay rupiah by QRIS through a licensed payment provider (Xendit, in test mode for now). The provider holds the money, and a contract on Arbitrum records each order's life. For shows abroad, the buyer's Circle USDC goes into an escrow contract that holds it per listing until the window after the show closes. Escrow cycles first ran on testnet with a simulated buyer. Since Arbitrum Founder House, buyers check out from their own wallet, on testnet.
+Crypto may not be used as payment in Indonesia, so for shows there, buyers pay rupiah by QRIS through a licensed payment provider (Xendit, in test mode for now). The provider holds the money (in test mode, none of it is real yet), and a contract on Arbitrum records each order's life. For shows abroad, the buyer's Circle USDC goes into an escrow contract that holds it per listing until the window after the show closes. Escrow cycles first ran on testnet with a simulated buyer. Since Arbitrum Founder House, buyers check out from their own wallet, on testnet.
 
 | Contract | On Arbitrum Sepolia, source verified | What it does |
 |---|---|---|
@@ -112,13 +112,13 @@ The contracts run on Arbitrum, an Ethereum L2, so they settle to Ethereum, and t
 
 - **2025.** Our first ticketing build was fully on-chain, made in a hackathon and an incubator in the Lisk ecosystem. It taught us what an ordinary fan will not do for a ticket: install a wallet, buy gas, approve pop-ups.
 - **Early 2026.** We pivoted to a hybrid. In front: rupiah by QRIS and an email sign-in. Behind: a public contract only where it earns its place, holding the money or keeping its record. We also narrowed from ticketing in general to resale, the sale where a buyer and a stranger have nobody in the middle.
-- **July 2026.** The first commit of Lummy as it is today. We started with concerts because that is where the fraud we kept hearing about happens: around one Coldplay show in Jakarta in 2023, police recorded 400 victims of ticket fraud. Nothing in the escrow is specific to music, and other kinds of events can follow.
+- **July 2026.** The first commit of Lummy as it is today. We started with concerts because that is where the fraud we kept hearing about happens: around one Coldplay show in Jakarta in 2023, police recorded 400 victims of ticket fraud (Polres Metro Jakarta Pusat, as reported by JPNN). Nothing in the escrow is specific to music, and other kinds of events can follow.
 - **October 2026.** Arbitrum Founder House, Singapore: a USDC checkout for shows abroad, on testnet. We submitted it and were not a finalist ([that work](https://github.com/Lummy-Ticket/lummy/compare/founder-house-start...pre-hackathon)).
 - **November 2026.** NEAR HACKATHON. The pivot had left one piece of crypto in the product: a fan buying a ticket to a show abroad still needed the right token on the right chain. NEAR Intents takes what they already hold and delivers exactly the price into the escrow, so they never learn what a bridge is. And the ticket check can now run inside NEAR AI's TEE, with a receipt anyone can verify ([that work](https://github.com/Lummy-Ticket/lummy/compare/pre-hackathon...main)).
 
 ## Where we are (November 2026)
 
-- **Live at [lummy.id](https://lummy.id):** email sign-in, and demo accounts to try every role without signing up; buyer, seller and staff flows on a real database; claims with photo evidence the server reads; gate passes scanned at the door; cancelled and postponed shows; English and Indonesian.
+- **Live at [lummy.id](https://lummy.id):** email sign-in, and demo accounts to try every role without signing up; buyer, seller and staff flows on a real database; claims with photo evidence the server reads; gate passes a door scanner can check (no organiser uses them yet); cancelled and postponed shows; English and Indonesian.
 - **Code at [Lummy-Ticket/lummy](https://github.com/Lummy-Ticket/lummy):** the app, the database schema and the contracts, mirrored from our working repository with their full history.
 - **Real ticket PDFs** have been checked since 1 October and read by Claude since 20 October. Since November a read can also run inside NEAR AI's TEE and leave a signed receipt.
 - **QRIS through Xendit** in test mode since 8 October. Real money waits for our company registration and the provider's business verification.
