@@ -26,7 +26,7 @@ Sign in with email. Shows in Indonesia need no wallet; shows abroad are paid in 
 <br>
 
 ![Ethereum L2: Arbitrum](./badges/chain.svg)
-![Escrow: live on Arbitrum Sepolia](./badges/escrow.svg)
+![Escrow: Arbitrum One and Sepolia](./badges/escrow.svg)
 ![Stage: Pre-seed](./badges/stage.svg)
 ![Jakarta, Indonesia](./badges/location.svg)
 
@@ -86,7 +86,7 @@ Crypto may not be used as payment in Indonesia, so for shows there, buyers pay r
 
 In the escrow, once the window after a show closes without a dispute, anyone can release the seller's payout, even with our backend down. The contract takes no fee and has no way to sweep funds: money only goes to the listing's buyer or seller.
 
-Since November 2026 the same escrow also runs on Arbitrum One ([`0x68d5…3cb3`](https://arbiscan.io/address/0x68d535494bf33a6F483A945683Ab629D036d3cb3#code)), where an order paid through NEAR Intents locks real USDC. For now only the team's accounts can pay there.
+**Since November 2026, on mainnet.** The same escrow runs on Arbitrum One ([`0x68d5…3cb3`](https://arbiscan.io/address/0x68d535494bf33a6F483A945683Ab629D036d3cb3#code)), with `LummyIntentFactory` ([`0x3dFc…b75C`](https://arbiscan.io/address/0x3dFc2bFFBfC17F1e5F741E0dCD04e8F24dd6b75C#code)) making one receiver per order for payments that arrive through NEAR Intents. On NEAR mainnet, [`lummy-receipts.near`](https://nearblocks.io/address/lummy-receipts.near) re-checks the signature on each ticket read in NEAR AI's TEE and holds no money. Only the team's accounts pay real money for now; everyone else uses the Sepolia contracts above.
 
 ## Every step on chain, in plain words
 
@@ -99,6 +99,8 @@ We spent a year on this problem before settling on the product. Our first build 
 So we kept blockchain in exactly one place: the money. For a sale between two strangers, a public contract beats our own word, because its rules and its history are open. We call it consumer escrow: the money is held until the show is over and released by what happens at the gate, for buyers who never see a wallet.
 
 The contracts run on Arbitrum, an Ethereum L2, so they settle to Ethereum, and the escrow holds USDC issued by Circle. Users sign in with email; the platform submits the transactions and pays the gas.
+
+**And why NEAR.** A fan buying a ticket to a show abroad holds whatever they hold, on whatever chain. NEAR Intents takes it and delivers exactly the price into the escrow, so the escrow did not have to move and nobody has to learn what a bridge is. NEAR AI runs the ticket read inside a TEE and signs it, so a buyer can check what the machine said without trusting us.
 
 ## Why now
 
