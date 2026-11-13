@@ -5,9 +5,9 @@
 **Escrow-backed resale for concert tickets, starting in Indonesia.**
 
 The buyer's money is held until 48 hours after the show, and every ticket is checked before it goes on sale.
-Sign in with email. Shows in Indonesia need no wallet; shows abroad are paid in USDC, from your own wallet with no gas fee, or from another chain through NEAR Intents.
+Sign in with email. Shows in Indonesia need no wallet; shows abroad are paid in USDC, from your own wallet with no gas fee, or from another chain through NEAR Intents. Payments are in test mode for the public; only the team has paid with real money so far.
 
-[<kbd> <br> Watch the demo (2:50) &nbsp;→ <br> </kbd>](https://youtu.be/090tOYfTQ4I)
+[<kbd> <br> Founder House demo (Oct 2026) &nbsp;→ <br> </kbd>](https://youtu.be/090tOYfTQ4I)
 &nbsp;
 [<kbd> <br> Watch the pitch &nbsp;→ <br> </kbd>](https://youtu.be/DeOXEoOJfJ4)
 &nbsp;
