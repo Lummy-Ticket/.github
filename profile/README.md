@@ -33,7 +33,7 @@ Sign in with email. Shows in Indonesia need no wallet; shows abroad are paid in 
 </div>
 
 > **NEAR HACKATHON, November 2026.** Built on NEAR and live at [lummy.id/near](https://lummy.id/near):
-> **pay from any chain** through NEAR Intents into the escrow on Arbitrum One, **a ticket check you can verify**, read in NEAR AI's TEE with a signed receipt, and a small contract on NEAR testnet that checks each receipt's signature again.
+> **pay from any chain** through NEAR Intents into the escrow on Arbitrum One, **a ticket check you can verify**, read in NEAR AI's TEE with a signed receipt, and a small contract on NEAR mainnet ([`lummy-receipts.near`](https://nearblocks.io/address/lummy-receipts.near)) that checks each receipt's signature again.
 > A real payment, from a wallet on Base to the escrow, took 37 seconds: [every order in that escrow](https://lummy.id/proof).
 > Real payments are the team's own for now, in unaudited contracts capped at 25 USDC an order. No users or revenue yet.
 > [Code, and how to check every claim](https://github.com/Lummy-Ticket/lummy) · [Notes for coding agents](https://github.com/Lummy-Ticket/lummy/blob/main/AGENTS.md)
@@ -129,7 +129,7 @@ The contracts run on Arbitrum, an Ethereum L2, so they settle to Ethereum, and t
 | Layer | What we build with |
 |---|---|
 | **App** | Next.js and TypeScript on Vercel. Supabase for Postgres, auth, storage, and row-level security |
-| **Chain** | Solidity and Foundry on Arbitrum. Circle USDC through ERC-3009 and EIP-712 signatures, gas paid by the platform. NEAR Intents (the 1Click API) for payments from other chains, and a receipt registry in Rust on NEAR testnet |
+| **Chain** | Solidity and Foundry on Arbitrum. Circle USDC through ERC-3009 and EIP-712 signatures, gas paid by the platform. NEAR Intents (the 1Click API) for payments from other chains, and a receipt registry in Rust on NEAR mainnet |
 | **Ticket checks** | Barcode decoding with keyed-hash dedup, PDF structure forensics, and a model reading the printed details: Claude, or one inside NEAR AI's TEE with a signed receipt |
 | **Money** | QRIS through Xendit, which holds the funds; the chain keeps the record |
 | **Identity** | Planned: e-KYC, e-signature, and e-stamp through a licensed Indonesian provider (PSrE), so raw ID images never sit with us |
